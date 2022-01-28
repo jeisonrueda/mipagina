@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+}
+
+div {
+    background-color: yellow;
+    border: 1px solid black;
+    height: 30px;
+}
+
+.par {
+    width: 100px;
+    background-color:blue;
+}
+
+.impar {
+    width: 150px;
+}
+
+#primero {
+    width: 100%;
+}
