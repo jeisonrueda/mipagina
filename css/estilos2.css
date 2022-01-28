@@ -1,11 +1,15 @@
-html, body {
+body {
     margin: 0;
 }
 
 div {
     background-color: red;
     border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: -20px -20px rgb(19, 128, 0);
     height: 30px;
+    transition-property: background-color;
+    transition-duration: 5s;
 }
 
 .par {
@@ -18,5 +22,39 @@ div {
 }
 
 #primero {
-    width: 100%;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 0px;
+    top: 0px;
+    
+}
+
+#primero:hover {
+    background-color: aqua;
+    transition: background-color 1000ms linear;
+}
+
+#segundo {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    right: 0px;
+    top: 0px;
+}
+
+#tercero {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    right: 0px;
+    bottom: 0px;
+}
+
+#cuarto {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 0px;
+    bottom: 0px;
 }
