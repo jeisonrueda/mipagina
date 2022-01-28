@@ -3,7 +3,7 @@ html, body {
 }
 
 div {
-    background-color: yellow;
+    background-color: red;
     border: 1px solid black;
     height: 30px;
 }
