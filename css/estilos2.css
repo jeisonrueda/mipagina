@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    position: relative;
 }
 
 div {
@@ -8,8 +9,12 @@ div {
     border-radius: 50%;
     box-shadow: -20px -20px rgb(19, 128, 0);
     height: 30px;
+<<<<<<< Updated upstream
     transition-property: background-color;
     transition-duration: 5s;
+=======
+  
+>>>>>>> Stashed changes
 }
 
 .par {
@@ -23,13 +28,18 @@ div {
 
 #primero {
     position: absolute;
+<<<<<<< Updated upstream
     width: 50%;
     height: 50%;
+=======
+    width: 50%x;
+>>>>>>> Stashed changes
     left: 0px;
     top: 0px;
     
 }
 
+<<<<<<< Updated upstream
 #primero:hover {
     background-color: aqua;
     transition: background-color 1000ms linear;
@@ -40,12 +50,19 @@ div {
     width: 50%;
     height: 50%;
     right: 0px;
+=======
+#segundo {
+    position: absolute;
+    width: 50%x;
+    left: 0px;
+>>>>>>> Stashed changes
     top: 0px;
 }
 
 #tercero {
     position: absolute;
     width: 50%;
+<<<<<<< Updated upstream
     height: 50%;
     right: 0px;
     bottom: 0px;
@@ -56,5 +73,17 @@ div {
     width: 50%;
     height: 50%;
     left: 0px;
+=======
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+#cuerto {
+    position: absolute;
+    width: 50%;
+    left: 0px;
+    top: 0px;
+>>>>>>> Stashed changes
     bottom: 0px;
 }
